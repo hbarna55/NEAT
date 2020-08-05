@@ -28,7 +28,7 @@ class network;
 int NEAT2_DRAW_NET_CW = 0; // current_window -- defined a long name to avoid errors
 void drawNet(network *, int, int); // draw the net on the provided window
 
-#else
+#else 
 
 #include<sys/time.h>
 void drawNet(network *, int, int, int, int); // draw the net on the provided co-ords
