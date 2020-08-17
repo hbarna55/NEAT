@@ -2,7 +2,7 @@
 
 ## v1.0 -> v1.1
 
-* Fixed functions importNet(), exportNet() and copyNet(), so the support the connectNeuron and disconnectNeuron functions
+* Fixed functions importNet(), exportNet() and copyNet(), so they support the connectNeuron and disconnectNeuron functions
 * Updated the documentation of the repository
 
 ## v0.0 -> v1.0
