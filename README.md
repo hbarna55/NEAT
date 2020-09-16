@@ -1,1 +1,3 @@
-## Read the README.md in the 'doc' folder for more details
+### From doc/READ_ME.md
+
+[a relative link] 
