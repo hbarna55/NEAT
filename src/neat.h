@@ -754,7 +754,7 @@ void disconnectNeuron(neuron * src_neuron, neuron * dest_neuron)
     dest_neuron->num_connections--;
     connection *connect = (connection *) malloc ( sizeof ( connection ) * dest_neuron->num_connections );
 
-    memcpy( connect, dest_neuron->connect, index * sizeof(connection)); // setup the new connect array - crop the disconnected neuron
+    memcpy( connect, dest_neuron->connect, index * sizeof(connection)); // setup the new connect array - remove the disconnected neuron from that list
     memcpy( connect + index, dest_neuron->connect + index + 1, (dest_neuron->num_connections-index) * sizeof(connection));
 
     free(dest_neuron->connect);
